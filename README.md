@@ -1,1 +1,1 @@
-# proyecto
+# Diseño e Implementación de una Infraestructura de Despliegue Continuo con GitOps y ArgoCD en Kubernetes sobre una Base No Convencional y un Kernel Optimizado de Baja Latencia
