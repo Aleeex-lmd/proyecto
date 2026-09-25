@@ -2,7 +2,7 @@
 
 ---
 
-## Objertivos
+## Objetivos
 
 - Diseñar la infraestructura sobre un modelo base rolling release, como en este caso puede ser arch, así mismo justificando su elección frente a alternativas más seguras y tradicionales como puede ser Debian.
 
