@@ -1,5 +1,6 @@
 # Diseño e Implementación de una Infraestructura de Despliegue Continuo con GitOps y ArgoCD en Kubernetes sobre una Base No Convencional y un Kernel Optimizado de Baja Latencia
 
+---
 
 ## Objertivos
 
@@ -12,3 +13,5 @@
 - Implementar argocd y giops para que funtione de forma centralizada tomando como nucleo el repositorio de github
 
 - Comprobaciones de que nuestra infraestructura funciona correctamente y verificación de que verdaderamente existen mejoras respecto a una base y kernel convencional para no quedarnos solo en lo teórico
+
+---
