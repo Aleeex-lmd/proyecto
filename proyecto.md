@@ -30,9 +30,15 @@ Kubernetes tiene cosas muy buenas como pueden ser el reinicio de los nodos que f
 
 ### Introduccion a GitOps
 
-Gitops es una de kas herramientas que nos va a facilitarla integración entre github y kubernetes, juento a argocd de la cual hablaremos después.
+Gitops una metodologia de trabajo que usa GitHub como fuente central, unas de sus ventajas son:
+
+1. Historial y auditoría total: Si el sistema falla, puedes revisar el historial de Git para ver qué cambio causó el problema.
+2. Recuperación ante desastres (Rollback inmediato): Si una actualización rompe el sistema, simplemente regresas a la versión anterior en Git (commit anterior) y la herramienta GitOps reparará el clúster en segundos.
+3. Mayor seguridad: Los desarrolladores no necesitan accesos directos ni contraseñas de los servidores de producción; solo necesitan permiso para proponer cambios en Git.
 
 
 ### Introducción a ArgoCD
 
-Y llegamos a la ultima pieza de nuestro proyecto, argocd, que junto con gitops permite la comunicación entre kubernete y github
+Y llegamos a la ultima pieza de nuestro proyecto, argocd, la cual se encarga de unir Github y Kubernetes haciendo una sinergia perfecta.
+
+Su trabajo consiste en leer la estructura que tiene descrita en nuestro repositorio GitHub y compararlo con lo que realmente esta bcorriendo en kubernetes, así mismo realizando cambios si fuese necesario. Si un desarrollador sube una nueva versión a Github, ArgoCD lo detecta inmediatamente y actualiza el cluster. Y si alguien por error intenta modificar algo a mano en kubernetes argocd lo corrige al instante.
