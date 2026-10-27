@@ -10,7 +10,7 @@
 
 ### Introducción al sistema operativo
 
-Primero comenzaremos por lo más básico, el sistema operativo, la base de la mayoría de proyectos y lo que los definen. Para este proyecto estaremos usando **[Ryoku arch](https://ryoku.dev)**, una distribución de Linux la cual usa como base Arch Linux, pero a diferencia de este es mucho más sencillo de instalar, al igual que otras alternativas como Omarchy, las cuales facilitan mucho la instalación, configuración y uso de estos sistemas operativos para la gente que no tiene un conocimiento tan elevado de la informática.
+Primero comenzaremos por lo más básico, el sistema operativo, la base de la mayoría de proyectos y lo que los definen. Para este proyecto estaremos usando **[Ryoku](https://ryoku.dev)**, una distribución de Linux la cual usa como base Arch Linux, pero a diferencia de este es mucho más sencillo de instalar, al igual que otras alternativas como Omarchy, las cuales facilitan mucho la instalación, configuración y uso de estos sistemas operativos para la gente que no tiene un conocimiento tan elevado de la informática.
 
 Las razones que me han hecho elegir esto frente a otras alternativas como pueden llegar a ser Omarchy, EndeavourOS o directamente, un Arch puro con dotfiles, son principalmente su estética brutalista japonesa, sumada a su perfecta sinergia con varias aplicaciones propias que permiten un excelente manejo del sistema. Entre ellas destacan una herramienta propia para cambiar los fondos de pantalla y adaptar el layout completo al fondo y al tema, un reproductor propio que se integra al tema que estemos usando, un agente integrado que permite que la IA ejecute comandos sobre nuestro sistema según lo que le pidamos, un gestor de máquinas virtuales propio y mucho más.
 
@@ -42,3 +42,45 @@ Gitops una metodologia de trabajo que usa GitHub como fuente central, unas de su
 Y llegamos a la ultima pieza de nuestro proyecto, argocd, la cual se encarga de unir Github y Kubernetes haciendo una sinergia perfecta.
 
 Su trabajo consiste en leer la estructura que tiene descrita en nuestro repositorio GitHub y compararlo con lo que realmente esta bcorriendo en kubernetes, así mismo realizando cambios si fuese necesario. Si un desarrollador sube una nueva versión a Github, ArgoCD lo detecta inmediatamente y actualiza el cluster. Y si alguien por error intenta modificar algo a mano en kubernetes argocd lo corrige al instante.
+
+## Instalacion del sistema operativo
+
+Para instalar ryoku tenemos varias bases entre las cuales se encuentran: arch y cachyos comos bases estables y en version aun experimentales podemos encontrar void linux, fedora y nixos. Nosotros usaremos cachyos como base ya que haremos uso del kernel de baja latencia que nos proporciona cachyos para buestro proyecto asi como algunas de sus mejoras frete a arch linux.
+
+Lo primero que haremos sera intalar ryoku desde su pagina web seleccionando la opcion de cachyos **[Ryoku](https://ryoku.dev)**
+
+![alt text](img/0.png)
+![alt text](img/1.png)
+![alt text](img/2.png)
+![alt text](img/3.png)
+![alt text](img/4.png)
+![alt text](img/5.png)
+![alt text](img/6.png)
+![alt text](img/7.png)
+![alt text](img/8.png)
+![alt text](img/9.png)
+![alt text](img/10.png)
+![alt text](img/11.png)
+![alt text](img/12.png)
+![alt text](img/13.png)
+![alt text](img/14.png)
+![alt text](img/15.png)
+![alt text](img/16.png)
+![alt text](img/17.png)
+![alt text](img/18.png)
+![alt text](img/19.png)
+![alt text](img/20.png)
+![alt text](img/21.png)
+![alt text](img/22.png)
+![alt text](img/23.png)
+![alt text](img/24.png)
+![alt text](img/25.png)
+![alt text](img/26.png)
+![alt text](img/27.png)
+![alt text](img/28.png)
+![alt text](img/29.png)
+![alt text](img/30.png)
+![alt text](img/31.png)
+![alt text](img/32.png)
+![alt text](img/33.png)
+![alt text](img/34.png)
