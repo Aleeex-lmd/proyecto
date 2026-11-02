@@ -49,38 +49,152 @@ Para instalar ryoku tenemos varias bases entre las cuales se encuentran: arch y 
 
 Lo primero que haremos sera intalar ryoku desde su pagina web seleccionando la opcion de cachyos **[Ryoku](https://ryoku.dev)**
 
+Ahora procederemos a explicar su instalacion:
+
+0. Al iniciar la maquina vemos lo sigiuiente que basicamente nos dices que gracias por instalar la iso y que esta no es una live version que es cuando tu puedes probar una iso sin escribir en el disco duro, como si fuera de prueba.
+
 ![alt text](img/0.png)
+
+
+1. Ahora nos sale una pantalla para seleccionar el layout del teclado, yo lo dejare en US ya que el teclado que estoy usando es con la distribucion de teclas US.
+
 ![alt text](img/1.png)
+
+2. Depues toca la seleccion de locales, los cuales dejare en español.
+
 ![alt text](img/2.png)
+
+3. Ahora viene la parte de la timezone que yo la dejare en que la pille automaticamente en funcion a nuestra ubicacion.
+
 ![alt text](img/3.png)
+
+4. En esta parte nos sale la parte de red, pero como es una iso completa en la cual no necesitamos tener que acceder a internet para instalar absolutamente nada por lo cual para lo unico que sirv es para informarnos.
+
 ![alt text](img/4.png)
+
+5. La parte que viene ahora es bastante peculiar, pocas isos tienen esto y es el hecho de que te detecte el hardware de tu dispositivo y te recomiende un paquetes de herramientas dependiendo de que estes usando para que le puedas sacar el maximo jugo posible al sistema operativo, habiendo 4 opciones, una para amd puro, uno para intel puro, uno para nvidia que es para gpu nvidia pero si no tienes todo nvidia sino que tienes una gpu amd tambien te ssirve y una poara maquinas virtuales.
+
+
 ![alt text](img/5.png)
+
+6. Ahorea te deja seleccionar, puedes elegir la que quioeras pero lo mejor es elegir la que te estan recomendando ya que es la que mas te va a servir para no tener problemas a futuro con el hardware
+
 ![alt text](img/6.png)
+
+7. Ahora toca elegir el compositor, tenemos tre opciones, hyperland, niri y Wayfire, en este caso usaremos niri ya que es con el que me siento mas familiarizados, el resto no los he probado por lo que tampoco puedo explicar las diferenciasd de cada uno o si unos es mejor o peor que otro en x cosa pero bajo mi experiencia personal abundan mucho los atajos de teclado y al ser tiling manager as ventanas no se superponen entre si sino que se van reagrupando en forma de mosaico.
+
 ![alt text](img/7.png)
+
+8. Ahora nos toca la parte de elegir nuestro navegador principal, tenemos cuatro opciones en las cxuales se encuentran: firefox, zen browser, chromium o no instalar ninguno, en mi caso elegire zen browser ya que es con el que estoy mas familiarizado.
+
 ![alt text](img/8.png)
+
+9. Ahora nos pide elegir una shell para la terminal, elegir tres opciones, fish zsh o fish, yo elegire fish.
+
 ![alt text](img/9.png)
+
+10. tras elegir el shell nos toca elegir el gestor de archivos, yo elegire nautilus, el de genome por su estestica.
+
+
 ![alt text](img/10.png)
+
+11. Ahora nos da la opcion de elegir si queremos usar o no rashin que es la ia local que puede ejecutar comandos en nuestra maquina en funcion de lo que le pidamos. Usando hermes que es suagente que a su vez puede integrarse con otras inteligencias artificiales.
+
 ![alt text](img/11.png)
+
+12. Aqui nos da la opcion de instalar los paquetes de optimizacion para nuestro sistema operativo, pero como nosostros hemos decidido instalar la version que usa cachyos como base ya lo tenemos integrado por defecto.
+
 ![alt text](img/12.png)
+
+13. Ahora sale la parte de herramientas por si queremosquitar alguna de las que salen, yo las dejare todas.
+
+
 ![alt text](img/13.png)
+
+14. En la siguiente ventana nos toca seleccionar el disco en el cual vamos a instalar el sistema operativo.
+
+
 ![alt text](img/14.png)
+
+15. En lo siguiente estaria para si queremos un dual boot o usar todo el disco pero como es una maquina virtual usaremos todo el disco.
+
 ![alt text](img/15.png)
+
+16. En la parte de particiones reservaremos 4gb para la bios, quitaremos la swap, y lo de las snapshots, tambien quitaremos lo del home separad y los respaldos ya que no son necesarios.
+
+
 ![alt text](img/16.png)
+
+17. De hostame dejaremos ql que viene por defecto.
+
+
 ![alt text](img/17.png)
+
+18. Ahora creamos la cueta de usuario que administrara esta maquina virtual.
+
 ![alt text](img/18.png)
+
+19. En los permisos poemos que se tenga que usar sudo para hacer cambios e el sistema y que no sea una contraseña distinta entre la de root y la de sudo.
+
 ![alt text](img/19.png)
+
+20. Nos da la opcion de crear un segundo usuario pero con uno solo es suficiente.
+
+
 ![alt text](img/20.png)
+
+21. Ahora nos da la opcion de que el root quede encriptado co luks pero yo no lo veo necesario asi que seleccionaremos no.
+
 ![alt text](img/21.png)
+
+22. Al terminar vemos todo lo que hemos seleccionado y le damos a que si para que empiece.
+
+
 ![alt text](img/22.png)
+
+23. Asi es como se ve mientras seesta instalando el sistema operativo
+
 ![alt text](img/23.png)
+
+24. Al terminar de instalar el sistema operativo le damos a que se reinicie.
+
+
 ![alt text](img/24.png)
+
+25. Al entrar vemos esta pestaña de login la cual se podria cambiar en la store que tiene integrada el sistema operativo
+
 ![alt text](img/25.png)
+
+26. Al iniciar siempre nos sale esto de loading desktop.
+
 ![alt text](img/26.png)
+
+27. Al iniciar esto por primera vez nos sale un breve mensaje de bienvenida.
+
 ![alt text](img/27.png)
+
+28. Nos da la eleccion de cambiar la barra superior pero por ahora yo dejare la que esta por defecto.
+
 ![alt text](img/28.png)
+
+29. No da la opcion d epersonalizarlo a nuestro gusto pero lo dejaremos como viene por defecto.
+
 ![alt text](img/29.png)
+
+30. Nos muestran todos los atajos de teclado que son muy importantes en esta interfaz grafica que estamos usando ya que facilita mucho saberse los atajos de teclado.
+
 ![alt text](img/30.png)
+
+31. Y tras esto acabamos la configuracion de bienvenida.
+
+
 ![alt text](img/31.png)
+
+32. Asi es como se ve nuestro sistema operativo sin ninguna personalizacion.
+
+
 ![alt text](img/32.png)
+
+33. Y tras la personalizacion nos quedaria de la siguiente forma, como se puede ver dista bastate del anterior, y eso es gracias a la enorme personalizacion que tiene esto sistema operativo
+
 ![alt text](img/33.png)
-![alt text](img/34.png)
